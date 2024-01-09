@@ -638,7 +638,7 @@ img {
 }
 
 .modal-input:focus,
-.modal-input:hover {
+.modal-textarea:focus {
   border-color: #4d5ae5;
 }
 
@@ -660,6 +660,7 @@ img {
   height: 120px;
   font-size: 12px;
   line-height: 1.17em;
+  letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -668,10 +669,6 @@ img {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-textarea:focus {
-  border-color: var(--brand-color2);
 }
 
 .modal-checkbox {
@@ -701,7 +698,7 @@ img {
 }
 
 .modal-link {
-  color: var(--brand-color2);
+  color: #4d5ae5;
 }
 
 .modal-submit {
