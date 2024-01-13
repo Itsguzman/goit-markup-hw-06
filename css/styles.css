@@ -677,6 +677,7 @@ img {
 .modal-checkbox {
   margin-bottom: 24px;
   display: inline-flex;
+  align-items: center;
 }
 
 .modal-privacy {
@@ -706,7 +707,7 @@ img {
   color: #4d5ae5;
 }
 
-.modal-checkbox input:checked + .modal-policy {
+.checkbox:checked + .modal-privacy > .modal-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
