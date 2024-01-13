@@ -666,13 +666,11 @@ img {
 }
 
 form .modal-input:focus,
-form .modal-input:hover,
-form .modal-textarea:focus,
-form .modal-textarea:hover {
+form .modal-textarea:focus {
   border-color: #4d5ae5;
 }
 
-.modal-div .modal-input:focus + .form-icons {
+.modal-input:focus + .form-icons {
   fill: #4d5ae5;
 }
 
@@ -701,16 +699,17 @@ form .modal-textarea:hover {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.modal-link {
-  color: #4d5ae5;
+  margin-right: 8px;
 }
 
 .checkbox:checked + .modal-privacy > .modal-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-link {
+  color: #4d5ae5;
 }
 
 .modal-submit {
