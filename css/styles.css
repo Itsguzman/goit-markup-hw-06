@@ -642,7 +642,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--brand-color2);
+  fill: var(--brand-color);
 }
 
 .modal-comment {
@@ -668,6 +668,10 @@ img {
 .modal-div .modal-input:focus,
 .modal-comment > .modal-textarea:focus {
   border-color: #4d5ae5;
+}
+
+.modal-div .modal-input:focus + .form-icons {
+  fill: var(--brand-color2);
 }
 
 .modal-checkbox {
@@ -698,14 +702,14 @@ img {
   fill: transparent;
 }
 
+.modal-link {
+  color: #4d5ae5;
+}
+
 .modal-checkbox input:checked + .modal-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-
-.modal-link {
-  color: #4d5ae5;
 }
 
 .modal-submit {
