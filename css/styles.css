@@ -294,7 +294,6 @@ img {
 }
 
 .product-li {
-  margin-right: 24px;
   width: calc((100% - 48px) / 3);
 }
 
