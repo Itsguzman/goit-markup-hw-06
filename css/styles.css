@@ -669,8 +669,6 @@ img {
 }
 
 .modal-checkbox {
-  margin: 0;
-  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -680,6 +678,8 @@ img {
   line-height: 1.17em;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
 }
 
 .modal-policy {
@@ -694,6 +694,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .modal-form input:focus {
   border-color: #4d5ae5;
